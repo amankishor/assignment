@@ -1,0 +1,16 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /* Remove outer margin */
+  }
+  
+  .card {
+    flex: 0 0 calc(30% - 10px); /* Adjust the width and margin between cards */
+    margin-bottom: 0; /* Remove margin between cards */
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
